@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "title": "Sportingswear - Sport Leggings Pants With Wide Leg",
+    "price": 79,
+    "description": "Nileton is an  e-commerce brand with a French taste in product design. The company mainly focuses on fashion products for women, men & children, in the meantime, offers accessories, bags, shoes and other fashion items. Currently we are operating in Egypt with targeting the Middle East in the near future. Nileton brand was founded in 2021.",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/957803/1.jpg?7373",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/957803/2.jpg?7373",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/957803/3.jpg?5712"
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-14T22:25:38.000Z",
+    "category": "Pants",
+    "badges": {
+      "badge_id": "discount_2024",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "start_date": "2024-10-21",
+        "end_date": "2024-11-21"
+      },
+      "display": { "color": "#FF0000", "position": "top-right", "text": "SALE" }
+    },
+    "rating": 2.3,
+    "color": ["gray"],
+    "size": ["m"],
+    "state": "Inactive",
+    "stock": 200
+  },
+  {
+    "id": 2,
+    "title": "Women Sweat Pants Solid",
+    "price": 86,
+    "description": "our products are manufactured from the finest quality cotton material to ensure maximum softness to your body also the store presents the latest  fashion with high standared knitting clothes and the best fits .very practical and elegant to wear can be used separate or above sleeveless dress or vest or blouse it gives you softnesses on the skin and apretty look .very trendy and classy designs made for girls and womens .shipping and pack all item will be double checked and well packed before sending .announcement :please fill in the correct address and phone number in the order for fast and correct delivary please feel free to contact customer service before leaving negative and neutral feedback,we will do our best to help you resolve the problem ...your 100% satisfaction is very important to us there may be aslight difference in color tone or the shape of the strap between the image and the product.",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/261804/1.jpg?7311",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/261804/3.jpg?7311",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/261804/4.jpg?7311"
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-14T22:25:38.000Z",
+    "category": "Pants",
+    "badges": {
+      "badge_id": "discount_2024",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "start_date": "2024-10-21",
+        "end_date": "2024-11-21"
+      },
+      "display": { "color": "#FF0000", "position": "top-right", "text": "SALE" }
+    },
+    "rating": 2.3,
+    "color": ["white"],
+    "size": ["m"],
+    "state": "Inactive",
+    "stock": 200
+  },
+  {
+    "id": 3,
+    "title": "Martina Store Stylish Women Hoodie With Pocket - Black & Gray",
+    "price": 45,
+    "description": "Stylish Women Hoodie With Pocket - Black & Gray .",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/149473/1.jpg?4940",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/149473/2.jpg?4940",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/149473/3.jpg?4940"
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-15T09:01:22.000Z",
+    "category": "Hoodies & Sweatshirts",
+    "badges": {
+      "badge_id": "discount_2024",
+      "badge_name": " ",
+      "badge_type": "discount",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "start_date": "2024-10-21",
+        "end_date": "2024-11-21"
+      },
+      "display": { "color": " ", "position": "top-right", "text": "SALE" }
+    },
+    "rating": 4.3,
+    "color": ["white"],
+    "size": ["m"],
+    "state": "Inactive",
+    "stock": 400
+  },
+  {
+    "id": 4,
+    "title": "Martina Store Stylish Women Hoodie Autumn Material - Sky Blue & White",
+    "price": 58,
+    "description": "LC Waikiki is a multi-cultural fashion brand which has continuously grown in the global market over the last 17 years. LC Waikiki today has a brand range that includes clothes and accessories for men, women and children of all ages, including babies, style-aware individuals and families. The brand accompanies itself with a distinctive methodology – high-quality clothes at great value. From close-fitting, stylish knitwear for men, to fashionable shoes and slippers for young girls, LC Waikiki has exactly what you need, when you need it.",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/13/149473/1.jpg?4941",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/13/149473/2.jpg?4941",
+      ""
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-14T22:25:38.000Z",
+    "category": "Hoodies & Sweatshirts",
+    "badges": {
+      "badge_id": "discount_2024",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "start_date": "2024-10-21",
+        "end_date": "2024-11-21"
+      },
+      "display": { "color": "#FF0000", "position": "top-right", "text": "SALE" }
+    },
+    "rating": 4,
+    "color": ["green"],
+    "size": ["m"],
+    "state": "Published",
+    "stock": 280
+  },
+  {
+    "id": 5,
+    "title": "Mesery Bretelle Short Dress Cotton Thin Strap - Black",
+    "price": 79,
+    "description": "Mesery company has more than 15 years of experience in the field of lingerieOur company is also considered one of the largestcompanies for underwear and home wear, and we also import lingerie from thelargest factories and international markets, Turkish and Chinese, in order tomeet the desires of your presence and satisfy all tastes.Make sure when you purchase one of our products, you willnever regret it because we carefully choose the best fabrics from pure cottonand high-quality lycra to give you unparalleled flexibility and softness anddoes not cause any allergies to sensitive skin and we also use chiffon andIndonesian satin and we also use high-quality accessories that are not affectedby washing or repeated use",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/278052/1.jpg?5206",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/278052/2.jpg?5206",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/278052/4.jpg?5206"
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-14T22:25:38.000Z",
+    "category": "Dresses",
+    "badges": {
+      "badge_id": "discount_2024",
+      "badge_name": "",
+      "badge_type": "discount",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "start_date": "2024-10-21",
+        "end_date": "2024-11-21"
+      },
+      "display": { "color": " ", "position": "top-right", "text": "SALE" }
+    },
+    "rating": 3.3,
+    "color": ["black"],
+    "size": ["m"],
+    "state": "Published",
+    "stock": 600
+  },
+  {
+    "id": 6,
+    "title": "Ricci Casual Dress For Woman",
+    "price": 32,
+    "description": "Elevate your basics with this versatile white crew neck tee. Made from a soft, breathable cotton blend, it offers both comfort and durability. Its sleek, timeless design ensures it pairs well with virtually any outfit. Ideal for layering or wearing on its own, this t-shirt is a must-have staple for every wardrobe.",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/78/438162/1.jpg?1561",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/78/438162/2.jpg?1561",
+      ""
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-14T22:25:38.000Z",
+    "category": "Dresses",
+    "badges": {
+      "badge_id": "discount_2024",
+      "badge_name": "15% OFF",
+      "badge_type": "discount",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "start_date": "2024-10-21",
+        "end_date": "2024-11-21"
+      },
+      "display": { "color": "#4CAF50", "position": "top-right", "text": "SALE" }
+    },
+    "rating": 1.2,
+    "color": ["orange"],
+    "size": ["m"],
+    "state": "Published",
+    "stock": 2000
+  },
+  {
+    "id": 7,
+    "title": "Coctail Jacket Jeans-3524-BLUE",
+    "price": 75,
+    "description": "Coctail is One of The Largest Brand Fashion Company. One of The Largest Distribution Company .The Customer is at The Heart of our Unique Business Model. Which includes Design Production and Sales .",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/1.jpg?0930",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/2.jpg?0930",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/3.jpg?0930"
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-14T22:25:38.000Z",
+    "category": "Coats& Jackets",
+    "badges": {
+      "badge_id": "discount_2024",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "start_date": "2024-10-21",
+        "end_date": "2024-11-21"
+      },
+      "display": { "color": "#FF0000", "position": "top-right", "text": "SALE" }
+    },
+    "rating": 3.2,
+    "color": ["blue"],
+    "size": ["m"],
+    "state": "Published",
+    "stock": 450
+  }
+]

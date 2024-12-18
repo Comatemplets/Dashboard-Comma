@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "Caesar Women Printed Closed Hoodie",
+    "price": "120",
+    "description": "Nileton is an  e-commerce brand with a French taste in product design. The company mainly focuses on fashion products for women, men & children, in the meantime, offers accessories, bags, shoes and other fashion items. Currently we are operating in Egypt with targeting the Middle East in the near future. Nileton brand was founded in 2021.",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/957803/1.jpg?7373",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/957803/2.jpg?7373",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/957803/3.jpg?5712"
+    ],
+    "creationAt": "2024-10-14T22:25:38.000Z",
+    "updatedAt": "2024-10-14T22:25:38.000Z",
+    "category": "Pants",
+    "rating": 2.3,
+    "color": [{ "id": 2, "name": "white", "colorCode": "#ffffff" }],
+    "size": ["m"],
+    "state": "Inactive",
+    "stock": 200,
+    "discount": 0,
+    "weight": "",
+    "gender": "",
+    "brand": "",
+    "badge": {
+      "id": "2",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "color": "#FF0000",
+      "creationAt": "2024-10-14T22:25:38.000Z"
+    }
+  },
+  {
+    "id": "3347af0d-3ae4-49f9-9e84-46e0287c491a",
+    "title": "Caesar Women Printed Closed Hoodie",
+    "price": "500",
+    "discount": "20",
+    "description": "",
+    "images": [
+      "https://cdn.filestackcontent.com/ZZZeSY3aRsiIa8RdOFXQ",
+      "https://cdn.filestackcontent.com/xdvKrfDqRmGKmXZTodyZ",
+      "https://cdn.filestackcontent.com/UU2eCjqjRyKjGgHp4zpz"
+    ],
+    "category": "Sports Wear",
+    "color": [
+      { "id": 6, "name": "purple", "colorCode": "#8a2be2" },
+      { "id": 5, "name": "gray", "colorCode": "#cccccc" },
+      { "id": 4, "name": "green", "colorCode": "#008000" },
+      { "id": 3, "name": "blue", "colorCode": "#0a75ad" }
+    ],
+    "size": ["xs", "s", "m", "lg", "xl"],
+    "stock": "",
+    "weight": "55kg to 100kg",
+    "gender": "Women",
+    "state": "Published",
+    "brand": "Caesar",
+    "badge": {
+      "id": "1",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "color": "#FF0000",
+      "creationAt": "2024-10-14T22:25:38.000Z"
+    }
+  }
+]

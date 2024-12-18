@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar.mobile-sidebar {
+  @apply left-0 w-full sm:w-72  transition-all ease-in duration-300;
+}
+
+.link-sidebar a {
+  @apply flex items-center text-xs font-semibold text-textblack dark:text-gray-100 dark:hover:text-main p-2 justify-between hover:text-main rounded-md transition duration-150 relative before:absolute before:w-3 before:h-6 before:bg-main before:-left-16 before:rounded-full before:transition-all before:duration-200;
+}
+.link-sidebar.active > a {
+  @apply bg-main bg-opacity-10 text-main before:-left-7;
+}
+
+.link-sidebar.active > a > i {
+  @apply rotate-180 transition duration-200;
+}
+.link-sidebar.active .mega-list {
+  @apply h-full scale-y-100 mt-2 transition-transform duration-200;
+}
+.link-sidebar .mega-list li a {
+  @apply font-normal  before:w-1 before:h-1 before:bg-main before:absolute before:-left-1 before:scale-0 before:transition-transform before:duration-200 before:rounded-full before:top-2/4 before:-translate-y-1/2;
+}
+.link-sidebar .mega-list li.active a {
+  @apply text-main before:scale-100;
+}
+.mobile-hidden {
+  @apply !hidden sm:!block;
+}
+.nav-menu.active {
+  @apply block;
+}
+.input-style {
+  @apply h-10 bg-gray-50 dark:bg-inputDark dark:text-gray-100  border dark:border-none outline-none border-gray-300 text-gray-500 text-xs rounded-md  block w-full p-2.5;
+}
+
+.label-style {
+  @apply block mb-2 text-xs  text-gray-500 dark:text-gray-100;
+}
+.checkbox-style {
+  @apply w-4 h-4 appearance-none  cursor-pointer dark:bg-inputDark dark:text-gray-100 dark:border-none bg-white border dark:checked:bg-main dark:checked:outline-gray-800 checked:bg-main checked:border-none checked:outline-4 checked:outline checked:outline-gray-200 rounded-md mr-3;
+}
+.main-title {
+  @apply text-xl font-semibold text-textblack mb-2 uppercase dark:text-gray-300;
+}
+.box-content {
+  @apply bg-white p-5 rounded-lg  h-fit dark:bg-boxDark;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.navbar-top {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.product-list-table thead {
+  @apply text-gray-500 dark:text-gray-100 text-sm uppercase;
+}
+.product-list-table td {
+  @apply p-3 border-b dark:border-gray-500 text-xs dark:text-gray-100;
+}
+.pagination li.active {
+  @apply border-none text-white bg-main;
+}
+/* Tailwind Dark Mode for SweetAlert2 Toasts */
+.swal-toast-dark {
+  @apply dark:!bg-inputDark dark:text-white border border-gray-600 rounded-lg shadow-md; /* Toast container styles */
+}
+
+.swal-toast-title {
+  @apply font-medium dark:!text-white; /* Title styles */
+}
+
+.swal-progress-bar {
+  @apply bg-main; /* Progress bar color */
+}
+.w-color-compact {
+  @apply !w-full !m-0 rounded-md dark:!bg-inputDark;
+}
+/* .link-sidebar a:hover .title-link {
+  transform: scale(1);
+}
+.title-link {
+  @apply sm:relative sm:bg-white sm:left-0 sm:p-0 sm:scale-100 sm:text-small   text-lg  absolute left-25 p-2 bg-main bg-opacity-25 rounded-md text-main scale-0;
+} */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.apexcharts-xcrosshairs,
+.apexcharts-ycrosshairs {
+  display: none;
+}

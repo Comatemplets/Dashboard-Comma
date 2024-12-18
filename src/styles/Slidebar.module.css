@@ -1,0 +1,24 @@
+.linkeTitle {
+  margin-left: 0.75rem;
+}
+
+/* @media (max-width: 640px) {
+  .linkeTitle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    padding: 8px;
+    background: #8b3dff57;
+    border-radius: 8px;
+    color: #8b3dff;
+    transform: scale(0);
+    font-size: 0.5rem;
+    width: 75px;
+  }
+  .linkSidebar:hover .linkeTitle {
+    left: 110%;
+    transform: scale(1);
+    transition: 0.3s ease-out;
+  }
+} */

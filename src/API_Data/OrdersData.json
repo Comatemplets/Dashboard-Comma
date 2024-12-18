@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1",
+    "order_date": "2024-12-09T14:30:00Z",
+    "customer": {
+      "customer_id": "56789",
+      "image": "https://techzaa.in/larkon/admin/assets/images/users/avatar-1.jpg",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "+1234567890",
+      "shipping_address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "USA"
+      }
+    },
+    "items": [
+      {
+        "product_id": "P123",
+        "product_name": "Coctail Jacket Jeans",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/1.jpg?0930",
+        "quantity": 1,
+        "price_per_unit": 99.99,
+        "subtotal": 99.99
+      },
+      {
+        "product_id": "P456",
+        "product_name": "Coctail Jacket Jeans",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/1.jpg?0930",
+        "quantity": 2,
+        "price_per_unit": 49.99,
+        "subtotal": 99.98
+      }
+    ],
+    "payment": {
+      "payment_method": "Credit Card",
+      "card_last4_digits": "1234",
+      "transaction_id": "TX987654321",
+      "total_amount": 199.97,
+      "card_holder": "Gaston Lapierre"
+    },
+    "shipping": {
+      "method": "Standard Shipping",
+      "cost": 9.99,
+      "tracking_number": "TRACK12345678",
+      "carrier": "FedEx"
+    },
+    "order_status": "Draft",
+    "total_amount": 209.96
+  },
+  {
+    "id": "2",
+    "order_date": "2024-12-09T14:30:00Z",
+    "customer": {
+      "customer_id": "56789",
+      "image": "https://techzaa.in/larkon/admin/assets/images/users/avatar-1.jpg",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "+1234567890",
+      "shipping_address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "USA"
+      }
+    },
+    "items": [
+      {
+        "product_id": "P123",
+        "product_name": "Coctail Jacket Jeans",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/1.jpg?0930",
+        "quantity": 1,
+        "price_per_unit": 99.99,
+        "subtotal": 99.99
+      },
+      {
+        "product_id": "P456",
+        "product_name": "Coctail Jacket Jeans",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/1.jpg?0930",
+        "quantity": 2,
+        "price_per_unit": 49.99,
+        "subtotal": 99.98
+      }
+    ],
+    "payment": {
+      "payment_method": "Credit Card",
+      "card_last4_digits": "1234",
+      "transaction_id": "TX987654321",
+      "total_amount": 199.97,
+      "card_holder": "Gaston Lapierre"
+    },
+    "shipping": {
+      "method": "Standard Shipping",
+      "cost": 9.99,
+      "tracking_number": "TRACK12345678",
+      "carrier": "FedEx"
+    },
+    "order_status": "Packaging",
+    "total_amount": 209.96
+  }
+]
