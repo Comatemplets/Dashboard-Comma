@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const GetOrders = createAsyncThunk("OrdersSlice/GetOrders", async () => {
-  const res = await fetch("http://localhost:3000/api/orders");
+  const res = await fetch("/api/orders");
   const data = await res.json();
   console.log(data);
   return data;
@@ -9,7 +9,7 @@ export const GetOrders = createAsyncThunk("OrdersSlice/GetOrders", async () => {
 export const AddNewOrders = createAsyncThunk(
   "OrdersSlice/AddNewOrders",
   async (DataOpject) => {
-    const response = await fetch("http://localhost:3000/api/orders", {
+    const response = await fetch("/api/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -24,7 +24,7 @@ export const AddNewOrders = createAsyncThunk(
 export const DeleteOrders = createAsyncThunk(
   "OrdersSlice/DeleteOrders",
   async (id) => {
-    const response = await fetch(`http://localhost:3000/api/orders/${id}`, {
+    const response = await fetch(`/api/orders/${id}`, {
       method: "DELETE",
     });
     if (!response.ok) {

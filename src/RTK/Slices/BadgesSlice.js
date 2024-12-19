@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const GetBadges = createAsyncThunk("BadgesSlice/GetBadges", async () => {
-  const res = await fetch("http://localhost:3000/api/badges");
+  const res = await fetch("/api/badges");
   const data = await res.json();
   console.log(data);
   return data;
@@ -9,7 +9,7 @@ export const GetBadges = createAsyncThunk("BadgesSlice/GetBadges", async () => {
 export const AddNewBadge = createAsyncThunk(
   "BadgesSlice/AddNewBadge",
   async (DataOpject) => {
-    const response = await fetch("http://localhost:3000/api/badges", {
+    const response = await fetch("/api/badges", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -24,7 +24,7 @@ export const AddNewBadge = createAsyncThunk(
 export const DeleteBadge = createAsyncThunk(
   "BadgesSlice/DeleteBadge",
   async (id) => {
-    const response = await fetch(`http://localhost:3000/api/badges/${id}`, {
+    const response = await fetch(`/api/badges/${id}`, {
       method: "DELETE",
     });
     if (!response.ok) {

@@ -1,10 +1,9 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { useDispatch } from "react-redux";
 
 export const GetProduct = createAsyncThunk(
   "ProductSlice/GetProduct",
   async () => {
-    const response = await fetch("http://localhost:3000/api/products");
+    const response = await fetch("/api/products");
     const data = await response.json();
     console.log(data);
     return data;
@@ -13,7 +12,7 @@ export const GetProduct = createAsyncThunk(
 export const AddNewProduct = createAsyncThunk(
   "ProductSlice/AddNewProduct",
   async (DataOpject) => {
-    const response = await fetch("http://localhost:3000/api/products", {
+    const response = await fetch("/api/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -28,7 +27,7 @@ export const AddNewProduct = createAsyncThunk(
 export const DeleteProduct = createAsyncThunk(
   "ProductSlice/DeleteProduct",
   async (id) => {
-    const response = await fetch(`http://localhost:3000/api/products/${id}`, {
+    const response = await fetch(`/api/products/${id}`, {
       method: "DELETE",
     });
     if (!response.ok) {
@@ -40,7 +39,7 @@ export const DeleteProduct = createAsyncThunk(
 export const UpdateProduct = createAsyncThunk(
   "ProductSlice/UpdateProduct",
   async (DataOpject) => {
-    const response = await fetch("http://localhost:3000/api/products", {
+    const response = await fetch("/api/products", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

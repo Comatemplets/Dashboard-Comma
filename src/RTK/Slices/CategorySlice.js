@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const GetCategory = createAsyncThunk(
   "CategorySlice/GetCategory",
   async () => {
-    const res = await fetch("http://localhost:3000/api/categories");
+    const res = await fetch("/api/categories");
     const data = await res.json();
     console.log(data);
     return data;
@@ -13,7 +13,7 @@ export const GetCategory = createAsyncThunk(
 export const AddNewCategory = createAsyncThunk(
   "CategorySlice/AddNewProduct",
   async (DataOpject) => {
-    const response = await fetch("http://localhost:3000/api/categories", {
+    const response = await fetch("/api/categories", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -29,7 +29,7 @@ export const AddNewCategory = createAsyncThunk(
 export const UpdateCategory = createAsyncThunk(
   "CategorySlice/UpdateCategory",
   async (DataOpject) => {
-    const response = await fetch("http://localhost:3000/api/categories", {
+    const response = await fetch("/api/categories", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -45,7 +45,7 @@ export const UpdateCategory = createAsyncThunk(
 export const DeleteCategory = createAsyncThunk(
   "CategorySlice/DeleteCategory",
   async (id) => {
-    const response = await fetch(`http://localhost:3000/api/categories/${id}`, {
+    const response = await fetch(`/api/categories/${id}`, {
       method: "DELETE",
     });
     if (!response.ok) {

@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const GetColors = createAsyncThunk("ColorsSlice/GetColors", async () => {
-  const res = await fetch("http://localhost:3000/api/colors");
+  const res = await fetch("/api/colors");
   const data = await res.json();
   console.log(data);
   return data;
@@ -9,7 +9,7 @@ export const GetColors = createAsyncThunk("ColorsSlice/GetColors", async () => {
 export const AddNewColor = createAsyncThunk(
   "ColorsSlice/AddNewColor",
   async (DataOpject) => {
-    const response = await fetch("http://localhost:3000/api/colors", {
+    const response = await fetch("/api/colors", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -24,7 +24,7 @@ export const AddNewColor = createAsyncThunk(
 export const DeleteColor = createAsyncThunk(
   "ColorsSlice/DeleteColor",
   async (id) => {
-    const response = await fetch(`http://localhost:3000/api/colors/${id}`, {
+    const response = await fetch(`/api/colors/${id}`, {
       method: "DELETE",
     });
     if (!response.ok) {
