@@ -50,10 +50,10 @@ function Badges() {
   const handelAddCategory = (even) => {
     even.preventDefault();
     dispatch(AddNewBadge(DataObject));
-    Toast.fire({
-      icon: "success",
-      title: "Badge has been Saved",
-    });
+    // Toast.fire({
+    //   icon: "success",
+    //   title: "Badge has been Saved",
+    // });
     dispatch(GetBadges());
   };
   const handelDelete = (id, colorName) => {

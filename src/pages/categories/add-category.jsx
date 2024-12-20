@@ -83,10 +83,10 @@ function AddCategory() {
     even.preventDefault();
     dispatch(AddNewCategory(DataObject));
     setQuickveiw(true);
-    Toast.fire({
-      icon: "success",
-      title: "Category has been Saved",
-    });
+    // Toast.fire({
+    //   icon: "success",
+    //   title: "Category has been Saved",
+    // });
   };
 
   return (

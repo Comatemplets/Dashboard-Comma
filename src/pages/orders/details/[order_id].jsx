@@ -100,7 +100,7 @@ function OrderDetails() {
             </h2>
             <div>
               <div className="flex items-center gap-1 mb-3">
-                <div className="img-content mr-3  min-w-10 h-10 rounded-lg overflow-hidden">
+                <div className="img-content mr-3  w-10 h-10 rounded-lg overflow-hidden">
                   <img
                     className="w-full h-full"
                     src={Order?.customer?.image || ""}

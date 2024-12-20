@@ -102,10 +102,10 @@ function editCategory() {
     dispatch(UpdateCategory(DataObject));
     setIsUpdated(true);
     setQuickveiw(true);
-    Toast.fire({
-      icon: "success",
-      title: "Category has been Update",
-    });
+    // Toast.fire({
+    //   icon: "success",
+    //   title: "Category has been Update",
+    // });
   };
 
   return (

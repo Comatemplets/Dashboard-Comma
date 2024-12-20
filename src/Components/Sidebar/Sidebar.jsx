@@ -3,10 +3,8 @@ import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
 import { MobileContext } from "../Navbar/Navbar";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 function Sidebar() {
-  const router = useRouter();
   const [IsActive, SetIsActive] = useState("dashboard");
   const [SubActive, SetSubActive] = useState("");
   const setActiveLinks = (link) => {
@@ -32,7 +30,7 @@ function Sidebar() {
 
   return (
     <div
-      className={`sidebar ${mobileClass} fixed bg-white dark:border-none dark:bg-boxDark h-screen top-0 -left-full sm:left-0 w-72  shadow-sm z-10 transition-all ease-in duration-300 border-r border-gray-100 `}>
+      className={`sidebar ${mobileClass} fixed bg-white dark:border-none dark:bg-boxDark h-screen top-0 -left-full sm:left-0 w-72  shadow-sm z-20 transition-all ease-in duration-300 border-r border-gray-100 `}>
       <button
         className="flex justify-end pr-5 pt-5  w-full sm:hidden "
         onClick={() => setMobileClass("")}>
@@ -52,7 +50,7 @@ function Sidebar() {
               className=" flex justify-between items-center w-full "
               href="/">
               <div className=" flex items-center">
-                <i class="bx bx-category text-lg"></i>
+                <i class="bx bxs-dashboard text-lg"></i>
                 <span className="link-title ml-2">Dashboard</span>
               </div>
             </Link>
@@ -101,7 +99,7 @@ function Sidebar() {
             onClick={() => setActiveLinks("categories")}>
             <a className=" flex justify-between items-center w-full cursor-pointer">
               <div className="flex items-center">
-                <i class="bx bx-list-ul text-lg"></i>
+                <i class="bx bx-category-alt text-lg"></i>
                 <span className="link-title ml-2">Categories</span>
               </div>
               <i className="fa-solid fa-chevron-down text-xs  "></i>

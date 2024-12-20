@@ -69,12 +69,14 @@ function OrderList() {
     const stateStyles = {
       Completed:
         "bg-green-50 text-green-700 ring-green-600/20 dark:border-green-500 dark:bg-inputDark dark:text-green-500",
-      Draft:
+      "In Progress":
         "bg-gray-50 text-gray-600 ring-gray-500/10 dark:border-gray-500 dark:bg-inputDark dark:text-gray-500",
       Canceled:
         "bg-red-50 text-red-700 ring-red-600/10 dark:border-red-500 dark:bg-inputDark dark:text-red-500",
-      Packaging:
+      Processing:
         "bg-orange-50 text-orange-700 ring-orange-600/10 dark:border-orange-500 dark:bg-inputDark dark:text-orange-500",
+      Shipped:
+        "bg-blue-50 text-blue-700 ring-blue-600/10 dark:border-blue-500 dark:bg-inputDark dark:text-blue-500",
     };
 
     return (

@@ -30,15 +30,15 @@
     }
   },
   {
-    "id": "3347af0d-3ae4-49f9-9e84-46e0287c491a",
-    "title": "Caesar Women Printed Closed Hoodie",
+    "id": "2",
+    "title": "Martina Store Stylish Women Hoodie With Pocket - Black & Gray",
     "price": "500",
     "discount": "20",
     "description": "",
     "images": [
-      "https://cdn.filestackcontent.com/ZZZeSY3aRsiIa8RdOFXQ",
-      "https://cdn.filestackcontent.com/xdvKrfDqRmGKmXZTodyZ",
-      "https://cdn.filestackcontent.com/UU2eCjqjRyKjGgHp4zpz"
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/149473/1.jpg?4940",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/149473/2.jpg?4940",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/149473/3.jpg?4940"
     ],
     "category": "Sports Wear",
     "color": [
@@ -48,7 +48,7 @@
       { "id": 3, "name": "blue", "colorCode": "#0a75ad" }
     ],
     "size": ["xs", "s", "m", "lg", "xl"],
-    "stock": "",
+    "stock": "1000",
     "weight": "55kg to 100kg",
     "gender": "Women",
     "state": "Published",
@@ -58,6 +58,127 @@
       "badge_name": "20% OFF",
       "badge_type": "discount",
       "color": "#FF0000",
+      "creationAt": "2024-10-14T22:25:38.000Z"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Mesery Bretelle Short Dress Cotton Thin Strap - Black",
+    "price": "55",
+    "discount": "20",
+    "description": "",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/278052/1.jpg?5206",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/278052/2.jpg?5206",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/278052/4.jpg?5206"
+    ],
+    "category": "Sports Wear",
+    "color": [
+      { "id": 6, "name": "purple", "colorCode": "#8a2be2" },
+      { "id": 5, "name": "gray", "colorCode": "#cccccc" }
+    ],
+    "size": ["xs", "lg", "xl"],
+    "stock": "280",
+    "weight": "55kg to 100kg",
+    "gender": "Women",
+    "state": "Published",
+    "brand": "Caesar",
+    "badge": {
+      "id": "1",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "color": "#FF0000",
+      "creationAt": "2024-10-14T22:25:38.000Z"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Coctail Jacket Jeans-3524-BLUE",
+    "price": "120",
+    "discount": "20",
+    "description": "",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/1.jpg?0930",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/2.jpg?0930",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/511179/3.jpg?0930"
+    ],
+    "category": "Sports Wear",
+    "color": [
+      { "id": 6, "name": "purple", "colorCode": "#8a2be2" },
+      { "id": 5, "name": "gray", "colorCode": "#cccccc" },
+      { "id": 4, "name": "green", "colorCode": "#008000" },
+      { "id": 3, "name": "blue", "colorCode": "#0a75ad" }
+    ],
+    "size": ["xs", "s", "m", "lg", "xl"],
+    "stock": "250",
+    "weight": "55kg to 100kg",
+    "gender": "Women",
+    "state": "Draft",
+    "brand": "Caesar",
+    "badge": {
+      "id": "1",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "color": "#FF0000",
+      "creationAt": "2024-10-14T22:25:38.000Z"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Frenchy Flap Pocket High Low Hem Overcoat",
+    "price": "210",
+    "discount": "20",
+    "description": "",
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/70/960625/1.jpg?1997",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/70/960625/2.jpg?1997",
+      "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/70/960625/3.jpg?1997"
+    ],
+    "category": "Sports Wear",
+    "color": [
+      { "id": 6, "name": "purple", "colorCode": "#8a2be2" },
+      { "id": 5, "name": "gray", "colorCode": "#cccccc" },
+      { "id": 4, "name": "green", "colorCode": "#008000" },
+      { "id": 3, "name": "blue", "colorCode": "#0a75ad" }
+    ],
+    "size": ["xs", "s", "m", "lg", "xl"],
+    "stock": "450",
+    "weight": "55kg to 100kg",
+    "gender": "Women",
+    "state": "Published",
+    "brand": "Caesar",
+    "badge": {
+      "id": "1",
+      "badge_name": "20% OFF",
+      "badge_type": "discount",
+      "color": "#FF0000",
+      "creationAt": "2024-10-14T22:25:38.000Z"
+    }
+  },
+  {
+    "id": "a4564fca-2d18-4a12-8cb3-e807b4fe4b38",
+    "title": "Martina Store Stylish Women Hoodie Autumn Material - Sky Blue & White",
+    "price": "130",
+    "discount": "10",
+    "description": "LC Waikiki is a multi-cultural fashion brand which has continuously grown in the global market over the last 17 years. LC Waikiki today has a brand range that includes clothes and accessories for men, women and children of all ages, including babies, style-aware individuals and families. The brand accompanies itself with a distinctive methodology – high-quality clothes at great value. From close-fitting, stylish knitwear for men, to fashionable shoes and slippers for young girls, LC Waikiki has exactly what you need, when you need it.",
+    "images": [
+      "https://cdn.filestackcontent.com/SjLWLiZRSmlw6lNzKpWG",
+      "https://cdn.filestackcontent.com/4A59xwCAQ26LoC46GRK1",
+      "https://cdn.filestackcontent.com/FH8jWcj3S82FwdHqG0BA"
+    ],
+    "category": "Sports Wear",
+    "color": [],
+    "size": ["xs", "s", "m", "lg", "xl"],
+    "stock": "300",
+    "weight": "55kg to 100kg",
+    "gender": "Women",
+    "state": "Published",
+    "brand": "Autumn Material",
+    "badge": {
+      "id": "3",
+      "badge_name": "New",
+      "badge_type": "New Products",
+      "color": "#0062B1",
       "creationAt": "2024-10-14T22:25:38.000Z"
     }
   }

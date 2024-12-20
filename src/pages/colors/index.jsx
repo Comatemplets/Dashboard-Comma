@@ -45,10 +45,10 @@ function Colors() {
   const handelAddCategory = (even) => {
     even.preventDefault();
     dispatch(AddNewColor(DataObject));
-    Toast.fire({
-      icon: "success",
-      title: "Color has been Saved",
-    });
+    // Toast.fire({
+    //   icon: "success",
+    //   title: "Color has been Saved",
+    // });
     dispatch(GetColors());
   };
   const handelDelete = (id, colorName) => {

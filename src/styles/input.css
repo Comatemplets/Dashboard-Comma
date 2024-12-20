@@ -55,6 +55,9 @@
 .product-list-table thead {
   @apply text-gray-500 dark:text-gray-100 text-sm uppercase;
 }
+.product-list-table .img-content {
+  @apply !w-10;
+}
 .product-list-table td {
   @apply p-3 border-b dark:border-gray-500 text-xs dark:text-gray-100;
 }

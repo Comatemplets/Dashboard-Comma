@@ -156,10 +156,10 @@ function editProduct() {
     even.preventDefault();
     dispatch(UpdateProduct(DataObject));
     setQuickveiw(true);
-    Toast.fire({
-      icon: "success",
-      title: "Product has been Update",
-    });
+    // Toast.fire({
+    //   icon: "success",
+    //   title: "Product has been Update",
+    // });
   };
 
   return (

@@ -8,9 +8,11 @@ function Navbar() {
   const { mobileClass, setMobileClass } = useContext(MobileContext);
   const [isMessageMenuOpen, setIsMessageMenuOpen] = useState(false);
   const [isAlertMenuOpen, setIsAlertMenuOpen] = useState(false);
+  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
 
   const messageMenuRef = useRef(null);
   const alertMenuRef = useRef(null);
+  const profileMenuRef = useRef(null);
 
   // Function to close menus if clicked outside
   useEffect(() => {
@@ -27,6 +29,12 @@ function Navbar() {
       ) {
         setIsAlertMenuOpen(false);
       }
+      if (
+        profileMenuRef.current &&
+        !profileMenuRef.current.contains(event.target)
+      ) {
+        setIsProfileMenuOpen(false);
+      }
     };
 
     document.addEventListener("mousedown", handleClickOutside);
@@ -34,7 +42,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar-top bg-white dark:bg-boxDark m-4 drop-shadow-sm rounded-md relative z-50">
+    <nav className="navbar-top bg-white dark:bg-boxDark m-4 drop-shadow-sm rounded-md relative z-10">
       <div className="mx-auto max-w-7xl  px-3">
         <div className="relative flex h-16 items-center justify-between w-full">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden z-10">
@@ -72,19 +80,19 @@ function Navbar() {
               />
               <i className="bx bx-search text-lg absolute top-2/4 -translate-y-2/4 left-5 text-gray-300"></i>
             </div>
-            <DarkModeToggle />
             <div className="flex relative ">
+              <DarkModeToggle />
               <div ref={alertMenuRef}>
                 <button
                   onClick={() => setIsAlertMenuOpen((prev) => !prev)}
                   type="button"
-                  className="nav-btn relative rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800  w-fit p-2 text-textblack hover:text-main">
+                  className="w-9 h-9 relative cursor-pointer  nav-btn rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800  p-2 text-textblack hover:text-main ">
                   <span className="flex justify-center items-center  absolute w-1.5 h-1.5 bg-main rounded-full  top-1 right-1 "></span>
                   <span className="sr-only">View notifications</span>
                   <i className="bx bx-bell text-md dark:text-gray-100"></i>
                 </button>
                 {isAlertMenuOpen && (
-                  <div className="box-content absolute top-16 right-0 min-w-60 dark:text-gray-100  ">
+                  <div className="box-content absolute top-16 sm:right-0 -right-8 sm:min-w-60 min-w-52 dark:text-gray-100  ">
                     <h2 className="mb-3">Notifications</h2>
                     <ul className="flex flex-col gap-3">
                       <li className="flex gap-2 ">
@@ -92,47 +100,50 @@ function Navbar() {
                           <i className="bx bxs-discount"></i>
                         </span>
                         <div className="text-small flex flex-col m">
-                          <dive>Discount available</dive>
-                          <dive className="text-gray-400  ">
+                          <div>Discount available</div>
+                          <div className="text-gray-400  ">
                             Morbi sapien massa, ultricies at rhoncus at,
                             ullamcorper nec diam
-                          </dive>
+                          </div>
                         </div>
                       </li>
                       <li className="flex gap-2 ">
                         <span className="flex justify-center p-5 items-center w-8 h-8 rounded-full bg-main bg-opacity-20 text-main">
-                          <i className="bx bxs-discount"></i>
+                          <i class="bx bx-user-voice"></i>
                         </span>
                         <div className="text-small flex flex-col m">
-                          <dive>Discount available</dive>
-                          <dive className="text-gray-400  ">
+                          <div>Account has been verified</div>
+                          <div className="text-gray-400  ">
                             Morbi sapien massa, ultricies at rhoncus at,
                             ullamcorper nec diam
-                          </dive>
+                          </div>
                         </div>
                       </li>
                       <li className="flex gap-2 ">
                         <span className="flex justify-center p-5 items-center w-8 h-8 rounded-full bg-main bg-opacity-20 text-main">
-                          <i className="bx bxs-discount"></i>
+                          <i class="bx bxs-package"></i>
                         </span>
                         <div className="text-small flex flex-col m">
-                          <dive>Discount available</dive>
-                          <dive className="text-gray-400  ">
+                          <div>Order shipped successfully</div>
+                          <div className="text-gray-400  ">
                             Morbi sapien massa, ultricies at rhoncus at,
                             ullamcorper nec diam
-                          </dive>
+                          </div>
                         </div>
                       </li>
                       <li className="flex gap-2 ">
                         <span className="flex justify-center p-5 items-center w-8 h-8 rounded-full bg-main bg-opacity-20 text-main">
-                          <i className="bx bxs-discount"></i>
+                          <i class="bx bxs-truck"></i>
                         </span>
                         <div className="text-small flex flex-col m">
-                          <dive>Discount available</dive>
-                          <dive className="text-gray-400  ">
+                          <div>
+                            Order pending:
+                            <span className="text-main"> ID 305830</span>
+                          </div>
+                          <div className="text-gray-400  ">
                             Morbi sapien massa, ultricies at rhoncus at,
                             ullamcorper nec diam
-                          </dive>
+                          </div>
                         </div>
                       </li>
                     </ul>
@@ -146,13 +157,13 @@ function Navbar() {
                 <button
                   onClick={() => setIsMessageMenuOpen((prev) => !prev)}
                   type="button"
-                  className=" nav-btn relative rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800  w-fit p-2 text-textblack hover:text-main">
+                  className="w-9 h-9 relative cursor-pointer  nav-btn rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800  p-2 text-textblack hover:text-main ">
                   <span className="flex justify-center items-center absolute w-1.5 h-1.5 bg-main rounded-full top-1 right-1 "></span>
                   <span className="sr-only">View message</span>
                   <i class="bx bx-message-square-dots text-md dark:text-gray-100"></i>
                 </button>
                 {isMessageMenuOpen && (
-                  <div className="box-content absolute top-16 right-0 min-w-60 dark:text-gray-100  ">
+                  <div className="box-content absolute top-16 sm:right-0 -right-8 sm:min-w-60 min-w-52 dark:text-gray-100  ">
                     <h2 className="mb-3">Massege</h2>
                     <ul className="flex flex-col gap-3">
                       <li className="flex gap-2 ">
@@ -174,39 +185,37 @@ function Navbar() {
                       <li className="flex gap-2 ">
                         <span className="overflow-hidden w-8 h-8 rounded-full ">
                           <img
-                            src="https://remosnextjs.vercel.app/images/avatar/user-12.png"
+                            src="https://remosnextjs.vercel.app/images/avatar/user-11.png"
                             alt=""
                             srcset=""
                             className="w-full h-full"
                           />
                         </span>
                         <div className="text-small flex flex-col flex-1">
-                          <a href="#">Ralph Edwards</a>
-                          <div className="text-gray-400  ">
-                            Are you there? interested i this...
-                          </div>
+                          <a href="#">Cameron Williamson</a>
+                          <div className="text-gray-400  ">Hello!</div>
                         </div>
                       </li>
                       <li className="flex gap-2 ">
                         <span className="overflow-hidden w-8 h-8 rounded-full ">
                           <img
-                            src="https://remosnextjs.vercel.app/images/avatar/user-12.png"
+                            src="https://remosnextjs.vercel.app/images/avatar/user-13.png"
                             alt=""
                             srcset=""
                             className="w-full h-full"
                           />
                         </span>
                         <div className="text-small flex flex-col flex-1">
-                          <a href="#">Ralph Edwards</a>
+                          <a href="#">Eleanor Pena</a>
                           <div className="text-gray-400  ">
-                            Are you there? interested i this...
+                            Interested in this loads?
                           </div>
                         </div>
                       </li>
                       <li className="flex gap-2 ">
                         <span className="overflow-hidden w-8 h-8 rounded-full ">
                           <img
-                            src="https://remosnextjs.vercel.app/images/avatar/user-12.png"
+                            src="https://remosnextjs.vercel.app/images/avatar/user-1.png"
                             alt=""
                             srcset=""
                             className="w-full h-full"
@@ -230,10 +239,11 @@ function Navbar() {
 
             {/* Profile dropdown */}
             <div className="relative ml-3">
-              <div>
+              <div ref={profileMenuRef}>
                 <button
+                  onClick={() => setIsProfileMenuOpen((prev) => !prev)}
                   type="button"
-                  className="relative w-8 h-8 flex rounded-full bg-gray-800 text-sm focus:outline-none  "
+                  className="relative w-8 h-8 flex rounded-full  text-sm focus:outline-none  "
                   id="user-menu-button"
                   aria-expanded="false"
                   aria-haspopup="true">
@@ -241,10 +251,57 @@ function Navbar() {
                   <span className="sr-only">Open user menu</span>
                   <img
                     className="w-full rounded-full"
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="https://remosnextjs.vercel.app/images/avatar/user-1.png"
                     alt=""
                   />
                 </button>
+                {isProfileMenuOpen && (
+                  <div className="box-content absolute top-16 right-0 min-w-40 dark:text-gray-100  ">
+                    <h2 className="mb-3">Welcome Gaston!</h2>
+                    <ul className="flex flex-col gap-3">
+                      <li className="flex gap-2 items-center text-xs text-textblack dark:text-gray-100 dark:hover:bg-inputDark hover:bg-gray-100 rounded-md cursor-pointer ">
+                        <span className="flex justify-center p-2 ">
+                          <i class="bx bx-user-circle text-lg"></i>
+                        </span>
+                        <div className="">
+                          <div>Profile</div>
+                        </div>
+                      </li>
+                      <li className="flex gap-2 items-center text-xs text-textblack dark:text-gray-100 dark:hover:bg-inputDark hover:bg-gray-100 rounded-md cursor-pointer ">
+                        <span className="flex justify-center p-2 ">
+                          <i class="bx bx-envelope text-lg"></i>
+                        </span>
+                        <div className="">
+                          <div>Masseges</div>
+                        </div>
+                      </li>
+                      <li className="flex gap-2 items-center text-xs text-textblack dark:text-gray-100 dark:hover:bg-inputDark hover:bg-gray-100 rounded-md cursor-pointer ">
+                        <span className="flex justify-center p-2 ">
+                          <i class="bx bx-wallet text-lg"></i>
+                        </span>
+                        <div className="">
+                          <div>Pricing</div>
+                        </div>
+                      </li>
+                      <li className="flex gap-2 items-center text-xs text-textblack dark:text-gray-100 dark:hover:bg-inputDark hover:bg-gray-100 rounded-md cursor-pointer ">
+                        <span className="flex justify-center p-2 ">
+                          <i class="bx bx-help-circle text-lg"></i>
+                        </span>
+                        <div className="">
+                          <div>Help</div>
+                        </div>
+                      </li>
+                      <li className="flex gap-2 items-center text-xs text-red-700 cursor-pointer ">
+                        <span className="flex justify-center p-2 ">
+                          <i class="bx bx-log-out text-lg"></i>
+                        </span>
+                        <div className="">
+                          <div>Log out</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
           </div>

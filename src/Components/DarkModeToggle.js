@@ -39,8 +39,8 @@ const DarkModeToggle = () => {
         id="toggle"
         type="checkbox"
       />
-      <i className="bx bx-sun text-md absolute text-textblack hover:text-main top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2  dark:text-gray-100 hidden opacity-0 peer-checked:opacity-100 peer-checked:block transition duration-200"></i>
-      <i className="bx bx-moon text-md absolute text-textblack hover:text-main  top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2  dark:text-gray-100 peer-checked:opacity-0 peer-checked:hidden transition duration-200  "></i>
+      <i className="bx bx-sun text-md absolute  hover:text-main top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2  dark:text-gray-100 hidden opacity-0 peer-checked:opacity-100 peer-checked:block transition duration-200"></i>
+      <i className="bx bx-moon text-md absolute  hover:text-main  top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2  dark:text-gray-100 peer-checked:opacity-0 peer-checked:hidden transition duration-200  "></i>
     </label>
   );
 };

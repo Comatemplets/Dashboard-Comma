@@ -134,10 +134,10 @@ function AddProduct() {
     even.preventDefault();
     dispatch(AddNewProduct(DataObject));
     setQuickveiw(true);
-    Toast.fire({
-      icon: "success",
-      title: "Product has been Saved",
-    });
+    // Toast.fire({
+    //   icon: "success",
+    //   title: "Product has been Saved",
+    // });
   };
 
   return (
